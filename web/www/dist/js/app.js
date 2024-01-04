@@ -41,7 +41,9 @@ function getBonziHEXColor(color) {
     black: "424242",
     grey: "828282",
     white: "EAEAEA",
-    ghost: "D77BE7"
+    ghost: "D77BE7",
+    amber: "FFBF00",
+    scarlet: "FF2400"
   };
 
   return "#" + (colorMap[color] || colorMap['purple']);
